@@ -1,0 +1,222 @@
+* {
+    background-color: #dedbd2;
+    margin:0;
+    border:border-box;
+    
+}
+#header{
+    border-radius: 10%;
+    height:70px;
+    
+}
+.navbar{
+    height:60px;
+    background-color:#b0c4b1;
+    display:flex;
+    margin-right:0;
+    top:0;
+    width:100%;
+    align-items:center;
+    position:fixed;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    display:block;
+    background-color: #b0c4b1;
+}
+.name{
+    width:220px;
+    font-size: 1.5rem;
+    color:black;
+    font-family: Times, 'Times New Roman', serif;
+    margin-left: 5%;    background-color:#b0c4b1 ;
+
+}
+ .panel{
+    width:50%;
+    display:flex;
+    justify-content: space-evenly;
+    color:black;
+    background-color: #b0c4b1;
+    padding-left: 40%;
+ }
+ #options:hover{
+    
+    background-color: #dedbd2;;
+ }
+ .HomeInfo p{
+    font-size: 2rem;
+    justify-content: center;
+    color:rgb(113, 72, 11); 
+ }
+ .Home{
+    
+    width:60%;
+    
+    height:100px;
+    background-color: #dedbd2;
+    justify-content: center;
+    align-items: center;
+    gap:6rem;
+    margin-top:300px;
+    margin-left:120px;
+    animation-name:A;
+    animation-duration:3s;
+    display: flex;
+ }
+ @keyframes A{
+    from{margin-left:0px;}
+    to{margin-left:120px;}
+ }
+ @keyframes B{
+    from{margin-left:580px;}
+    to{margin-left:650px;}
+ }
+ .HomeInfo{
+    text-align: center;
+ }
+ .Home .charan{
+    width:400px;
+    
+    cursor: pointer;
+    padding-left:10px;
+    border-radius: 40%;
+    box-shadow: 10%;
+    opacity: 80%;
+ }
+ .Home .btn{
+    padding:8px 30px;
+    border:1px solid black;
+    transition: width  2000ms linear  1000ms;
+   margin-top: 30%;
+   border-radius: 10%;
+ }
+ .btn:hover{ background-color: #b0c4b1;}
+ .social{
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    font-size: large;
+    margin-top:150px;
+    margin-left:625px;
+    animation-name:B;
+    animation-duration:3s;
+    background-color:#dedbd2 ;
+    
+ }
+ .Matter{
+    margin-top:100px;
+    background-color: rgb(234, 207, 166);
+    width:60%;
+   
+    height:80px;
+    padding: 20%;
+    
+ }
+ .Matter h5{
+   background-color: rgb(234, 207, 166);
+   font-size: x-large;
+   margin-top: 10px;
+   margin-left:10px;
+   display:inline;
+ }
+ .Matter p{
+   background-color: rgb(234, 207, 166);
+   padding:10px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+ .skillclass{
+    margin-top:0px;
+    background-color: rgb(166, 205, 220);
+    width:60%;
+    height:150px;
+    padding: 20%;
+    
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ #s1{
+    margin-top:20px;
+   
+    height:10px;
+    background-color: blanchedalmond;
+    box-shadow: inset;
+    
+ }
+ .skillclass p{
+    margin-top:15px;
+    display: inline;
+    font-size:20px;
+    background-color: rgb(166, 205, 220) ;
+  }
+ body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+ }
+ h1 {
+    text-align: center;
+ }
+ .container {
+    width: 100%;
+    height:9px;
+    background-color: rgb(231, 231, 231);
+
+ }
+ .cpp, .java, .python, .c {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border-radius: 20px;
+ }
+ .cpp {
+    width: 90%;
+    height:9px;
+    background-color: #b0c4b1;
+ }
+ .java {
+    width: 80%;
+    height:9px;
+    background-color:#b0c4b1;}
+ .python {
+    width: 65%;
+    height:9px;
+    background-color: #b0c4b1;
+ }
+ .c {
+    width: 60%;
+    height:9px;
+    background-color: #b0c4b1;
+    padding-bottom: 3px;
+ }
+
+ .contact{
+    margin-top:0px;
+    background-color:rgb(97, 105, 103);
+    width: 100%;
+   
+    padding: 2em 0;
+    margin-bottom: 0px;
+
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .contact p{
+   padding-left: 300px;
+   font-size:20px;
+ }
+h5{
+   display: inline-flex;
+   text-decoration: underline;
+}
